@@ -1,6 +1,6 @@
 <template>
   <div class="AMap">
-    <a target="_self" class="link" href='/Bmap'>百度地图版</a>
+    <router-link target="_self" class="link" to='Bmap'>百度地图版</router-link>
     <div class="city-panel"></div>
     <div class="m-filter">
       <div class="mui-input-row mui-search mui-active">
