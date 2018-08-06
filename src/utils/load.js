@@ -1,7 +1,7 @@
 export function loadingMap(type, key) {
   return new Promise(function(resolve, reject) {
     //for baiduMap 2.0
-    //高德地图引入
+    //楂樺痉鍦板浘寮曞叆
     let amapLoad = () => {
       let script = document.createElement("script");
       script.type = "text/javascript";
@@ -13,7 +13,7 @@ export function loadingMap(type, key) {
         type == 'baidu' ? resolve(BMap) : resolve(AMap)
       }
     }
-    //百度地图引入
+    //鐧惧害鍦板浘寮曞叆
     let bmapLoad = () => {
       window.BMap_loadScriptTime = (new Date).getTime();
       window.BMap = window.BMap || {};
