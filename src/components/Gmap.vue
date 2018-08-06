@@ -16,7 +16,7 @@
       <div class="obj"><img src="../img/cur.png"></div>
     </div>
     <div id="mapPanelG">
-      <div style="text-align:center;padding-top:200px;">地图加载中...</div>
+      <div style="text-align:center;padding-top:200px;color:#fff">地图加载中...</div>
     </div>
     <div id="m-result">
       <span class="curResult">
@@ -341,6 +341,7 @@ export default {
     height: 100%;
     width: 100%;
     position: absolute!important;
+    background-color:rgba(76, 76, 76, 0.7686274509803922);
   }
   .pos-panel {
     width: 92%;

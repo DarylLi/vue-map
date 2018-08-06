@@ -19,7 +19,7 @@ export function loadingMap(type, key) {
       window.BMap = window.BMap || {};
       window.BMap.apiLoad = function() { delete window.BMap.apiLoad; if (typeof init == "function") { init() } };
       let s = document.createElement('script');
-      s.src = 'http://api.map.baidu.com/getscript?v=2.0&ak=' + key + '&services=&t=20180629105709';
+      s.src = 'https://api.map.baidu.com/getscript?v=2.0&ak=' + key + '&services=&t=20180629105709&s=1';
       document.body.appendChild(s);
       s.onload = function() {
         type == 'baidu' ? resolve(BMap) : resolve(AMap)
