@@ -15,6 +15,7 @@ export function loadingMap(type, key) {
     }
     //百度地图引入
     let bmapLoad = () => {
+      window.HOST_TYPE = "2";
       window.BMap_loadScriptTime = (new Date).getTime();
       window.BMap = window.BMap || {};
       window.BMap.apiLoad = function() { delete window.BMap.apiLoad; if (typeof init == "function") { init() } };
