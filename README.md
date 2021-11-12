@@ -4,6 +4,7 @@
   
   JS API versions of bMap & aMap:
   bMap:v2.0
+  
   aMap:v1.4.5
 
 ## Build Setup
